@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
+.wrap{
+    max-width: 100%;
+}
+.glassedType a{
+    text-decoration: none;
+
+}
+.glassedType {
+    display: flex;
+    justify-content: center;
+
+}
+.glassedType  li{
+    border: 1px solid #DCDCDC;
+    padding: 24px 117px 24px 117px;
+    
+    
+}
+.glassedType a {
+    color: black;
+    font: normal normal normal 42px/63px Roboto ;
+    height: 63px;
+}
+
+.glassedType span{
+    font: normal normal normal 42px/63px Roboto ;
+    height: 63px;
+}
+.optical h3{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.optical>  div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 88px;
+    
+}
+.optical div img{
+    max-width: 49%;
+}
+.optical> ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1110px;
+    margin: 0 auto;
+}
+.optical >ul>li{
+    width: 255px;
+    margin-bottom: 100px;
+}
+.optical>ul div{
+    display: flex;
+    justify-content: space-between;
+}
+.opticalProductName{
+    font: normal normal normal 24px/36px Roboto;
+    
+}
+.opticalProductPrice{
+    font: normal normal normal 24px/36px Roboto;
+    color: #AA0601;
+}
+.color1{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: #5F3E2D 0% 0% no-repeat padding-box;
+}
+.color2{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: #B75929 0% 0% no-repeat padding-box;
+}

@@ -1,0 +1,155 @@
+.wrap{
+    width: 1920px;
+}
+.container{
+    width: 1110px;
+    margin: 0 auto;
+}
+.banner img{
+    position: relative;
+    display: block;
+}
+.banner div{
+    position: absolute;
+    top: 350px;
+    left: 939px;
+    text-align: right;
+}
+.intro{
+    padding-top: 64px;
+    padding-bottom: 80px;
+    text-align: center;
+    background: #AA06010D 0% 0% no-repeat padding-box;
+    margin-bottom: 64px;
+}
+.intro h4{
+    margin-bottom: 60px;
+}
+.intro ul{
+    display: flex;
+    
+}
+.intro ul div{
+    height: 100px;
+}
+.intro ul li{
+    margin-right: 76px;
+}
+
+.glasses{
+    margin-bottom: 48px;
+}
+.glasses>h5{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.glasses .pic{
+    width: 635px;
+}
+.glasses>div{
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.glasses>div>div:nth-child(even){
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.glasses>div>div:nth-child(odd){
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    margin-left: 90px;
+}
+.design{
+    background: transparent url('https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/bg.png?raw=true') 50% 50% no-repeat padding-box;
+    margin-bottom: 64px;
+    padding-bottom: 80px;
+}
+.design>h5{
+    color: white;
+    padding-top: 64px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.design ul{
+    display: flex;
+    justify-content: space-between;
+}
+.designImgLeft{
+    background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/product-8.png?raw=true"); 
+    width: 540px;
+    height: 472px;
+    position: relative;
+    opacity: 0.5;
+    background-size: cover; 
+}
+.designImgRight{
+    background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/product-9.png?raw=true"); 
+    width: 540px;
+    height: 472px;
+    position: relative;
+    opacity: 0.5;
+    background-size: cover; 
+}
+.design ul h5{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    z-index: 999;
+    color: #AA0601;
+}
+ /* .design li:nth-child(odd) {
+
+    background: transparent url('https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/product-8.png?raw=true') 0% 0% no-repeat padding-box;
+
+     background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/product-8.png?raw=true"); 
+     background-size: cover; 
+ }
+.design li:nth-child(even) {
+    
+    background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/product-9.png?raw=true");
+    background-size: cover;
+    background-repeat: no-repeat;
+}    */
+.customerRecommand{
+    margin-bottom: 64px;
+}
+.customerRecommand h5{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.customerRecommand ul{
+    display: flex;
+    justify-content: space-between;
+}
+.customerRecommand li{
+    width: 255px;
+}
+.contact{
+    padding-top: 64px;
+    padding-bottom: 80px;
+    background: #AA06010D 0% 0% no-repeat padding-box;
+}
+.contact h5{
+    text-align: center;
+    margin-bottom: 24px;
+}
+.contact p {
+    margin-bottom: 20px;
+}
+.contact form{
+    display: flex;
+    flex-direction: column;
+}
+.contact label{
+    margin-bottom: 4px;
+}
+.contact input{
+    margin-bottom: 16px;
+}
+.contact  ::placeholder{
+    /* padding-top : 14px; */
+}
