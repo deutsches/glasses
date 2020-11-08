@@ -75,3 +75,21 @@
     height: 24px;
     background: #B75929 0% 0% no-repeat padding-box;
 }
+.page{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 156px;
+    
+}
+.page li{
+    border: 1px solid black;
+    padding: 10px;
+    border-collapse: collapse;
+}
+.page a{
+    text-decoration: none;
+    color: black;
+}
+.sunGlasses{
+    display: none;
+}

@@ -1,0 +1,17 @@
+.wrap{
+    width: 1110px;
+    margin: 0 auto;
+}
+.storelists{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.storelists li {
+    width: 350px;
+    margin-bottom: 32px;
+}
+.storelists h5{
+    border-bottom: 1px solid black;
+}
